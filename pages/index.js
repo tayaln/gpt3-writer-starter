@@ -35,15 +35,15 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Misdoms (Mother's Wisdoms)</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Let AI guide you like your mother</h1>
+            <h1>Let AI try to guide you like a mother</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Try asking - What is the home remedy for acidity/ How to do Diwali Pooja</h2>
+            <h2>Try asking - What things are required for Diwali Pooja/ Home remedy for child's stomach pain</h2>
           </div>
         </div>
         {/* Add this code here*/}
@@ -78,7 +78,7 @@ const Home = () => {
         </div>
 
       </div>
-      <div className="badge-container grow">
+      {/* <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
           target="_blank"
@@ -89,7 +89,7 @@ const Home = () => {
             <p>build with buildspace</p>
           </div>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
